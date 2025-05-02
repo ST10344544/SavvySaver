@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SavvySaver</string>
+    <string name="dashboard_header">Dashboard</string>
+    <string name="insights_header">Insights and Reports</string>
+</resources>

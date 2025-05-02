@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_categories.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\expense_item.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\expense_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_rewards.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_rewards.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_expense_list.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_expense_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeDebugResources-46:/layout/activity_dashboard.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_add_expense.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_add_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_category_expenses.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_category_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_logout.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_insights.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_insights.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_expenses_by_date.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_expenses_by_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_view_photo.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_view_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_budget_goals.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_budget_goals.xml"
+    }
+]
