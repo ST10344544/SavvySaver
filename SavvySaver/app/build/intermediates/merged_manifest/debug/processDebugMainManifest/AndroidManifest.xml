@@ -43,6 +43,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="vcmsa.projects.savvysaver.ui.SpendingGraphActivity"
+            android:exported="false" />
+        <activity
             android:name="vcmsa.projects.savvysaver.ui.LoginActivity"
             android:exported="false" />
         <activity

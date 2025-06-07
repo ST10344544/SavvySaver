@@ -3306,6 +3306,7 @@ id elastic
 id email
 id embed
 id end
+id endDateEditText
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
@@ -3382,6 +3383,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loadGraphButton
 id loading_bar
 id login_button
 id login_header
@@ -3476,6 +3478,7 @@ id notifications_switch
 id off
 id on
 id onInterceptTouchReturnSwipe
+id open_analysis_button
 id open_search_bar_text_view
 id open_search_view_background
 id open_search_view_clear_button
@@ -3562,6 +3565,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id simpleBarGraphView
 id sin
 id skipCollapsed
 id skipped
@@ -3584,6 +3588,7 @@ id src_in
 id src_over
 id standard
 id start
+id startDateEditText
 id startHorizontal
 id startToEnd
 id startVertical
@@ -3797,6 +3802,7 @@ layout activity_main
 layout activity_register
 layout activity_rewards
 layout activity_settings
+layout activity_spending_graph
 layout activity_splash
 layout activity_view_photo
 layout custom_dialog

@@ -36,6 +36,7 @@ id dashboard_header
 id date
 id description
 id email
+id endDateEditText
 id expense_date
 id expense_description
 id expense_list
@@ -44,6 +45,7 @@ id expenses_list
 id forgot_password_button
 id full_name
 id insights_header
+id loadGraphButton
 id loading_bar
 id login_button
 id login_header
@@ -57,6 +59,7 @@ id nav_categories
 id nav_home
 id nav_settings
 id notifications_switch
+id open_analysis_button
 id password
 id phone
 id photo_image_view
@@ -68,6 +71,8 @@ id register_header
 id rewards_header
 id save_button
 id settings_header
+id simpleBarGraphView
+id startDateEditText
 id upload_receipt_button
 id username
 id view_photo_button
@@ -85,6 +90,7 @@ layout activity_main
 layout activity_register
 layout activity_rewards
 layout activity_settings
+layout activity_spending_graph
 layout activity_splash
 layout activity_view_photo
 layout expense_item

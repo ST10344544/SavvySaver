@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\User\.gradle\caches\transforms-4\a697bd5cf6f7bff6b0f89870c51cba4c\transformed\viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-4\f64adfd319d169c4e1dc096c615e6011\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-4\43d4525b85db0c4420b5e249b588c4aa\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -64,6 +64,7 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\User\.gradle\caches\transf
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\.gradle\caches\transforms-4\83e3a328b7c5ced072735ede2b28a1d9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\.gradle\caches\transforms-4\d2e8c5ddf5a83513946ca2fb57d75a74\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-4\deed7f3f707da3938f458b203701e0c1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.4] C:\Users\User\.gradle\caches\transforms-4\1221573d29cd04895bb67aad8eea6117\transformed\threetenabp-1.4.4\AndroidManifest.xml:2:1-9:12
 	package
 		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml
@@ -92,8 +93,8 @@ ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:8:5-84
 	android:name
 		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:8:19-57
 application
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:10:5-38:19
-INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:10:5-38:19
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:10:5-39:19
+INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml:10:5-39:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-4\f64adfd319d169c4e1dc096c615e6011\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-4\f64adfd319d169c4e1dc096c615e6011\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-4\43d4525b85db0c4420b5e249b588c4aa\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -116,6 +117,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\User\.gradle\caches\transforms-4\5f2b28d78084a69e8bbbaa9e9e9f6c07\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\.gradle\caches\transforms-4\935649798e441295edb79ba5b39a704e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\User\.gradle\caches\transforms-4\935649798e441295edb79ba5b39a704e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.4] C:\Users\User\.gradle\caches\transforms-4\1221573d29cd04895bb67aad8eea6117\transformed\threetenabp-1.4.4\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.4] C:\Users\User\.gradle\caches\transforms-4\1221573d29cd04895bb67aad8eea6117\transformed\threetenabp-1.4.4\AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
 		INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
@@ -148,84 +151,90 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:22:27-74
+activity#vcmsa.projects.savvysaver.ui.SpendingGraphActivity
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:25:9-87
+	android:exported
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:25:60-84
+	android:name
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:25:19-59
 activity#vcmsa.projects.savvysaver.ui.LoginActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:25:9-79
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:26:9-79
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:25:52-76
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:26:52-76
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:25:19-51
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:26:19-51
 activity#vcmsa.projects.savvysaver.ui.CategoryExpensesActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:26:9-90
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:27:9-90
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:26:63-87
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:27:63-87
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:26:19-62
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:27:19-62
 activity#vcmsa.projects.savvysaver.ui.ViewPhotoActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:27:9-82
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:28:9-82
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:27:56-80
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:28:56-80
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:27:19-55
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:28:19-55
 activity#vcmsa.projects.savvysaver.ui.MainActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:28:9-78
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:29:9-78
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:28:51-75
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:29:51-75
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:28:19-50
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:29:19-50
 activity#vcmsa.projects.savvysaver.ui.RegisterActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:29:9-82
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:30:9-82
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:29:55-79
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:30:55-79
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:29:19-54
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:30:19-54
 activity#vcmsa.projects.savvysaver.ui.DashboardActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:30:9-83
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:31:9-83
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:30:56-80
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:31:56-80
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:30:19-55
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:31:19-55
 activity#vcmsa.projects.savvysaver.ui.AddExpenseActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:31:9-84
-	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:31:57-81
-	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:31:19-56
-activity#vcmsa.projects.savvysaver.ui.CategoriesActivity
 ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:32:9-84
 	android:exported
 		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:32:57-81
 	android:name
 		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:32:19-56
+activity#vcmsa.projects.savvysaver.ui.CategoriesActivity
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:33:9-84
+	android:exported
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:33:57-81
+	android:name
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:33:19-56
 activity#vcmsa.projects.savvysaver.ui.BudgetGoalsActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:33:9-85
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:34:9-85
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:33:58-82
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:34:58-82
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:33:19-57
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:34:19-57
 activity#vcmsa.projects.savvysaver.ui.InsightsActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:34:9-82
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:35:9-82
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:34:55-79
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:35:55-79
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:34:19-54
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:35:19-54
 activity#vcmsa.projects.savvysaver.ui.RewardsActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:35:9-81
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:36:9-81
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:35:54-78
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:36:54-78
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:35:19-53
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:36:19-53
 activity#vcmsa.projects.savvysaver.ui.SettingsActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:36:9-82
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:37:9-82
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:36:55-79
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:37:55-79
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:36:19-54
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:37:19-54
 activity#vcmsa.projects.savvysaver.ui.LogoutActivity
-ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:37:9-80
+ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:38:9-80
 	android:exported
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:37:53-77
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:38:53-77
 	android:name
-		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:37:19-52
+		ADDED from D:\SavvySaver\app\src\main\AndroidManifest.xml:38:19-52
 uses-sdk
 INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml
@@ -350,6 +359,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\.gradle\caches\transforms-4\d2e8c5ddf5a83513946ca2fb57d75a74\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-4\deed7f3f707da3938f458b203701e0c1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-4\deed7f3f707da3938f458b203701e0c1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.4] C:\Users\User\.gradle\caches\transforms-4\1221573d29cd04895bb67aad8eea6117\transformed\threetenabp-1.4.4\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.4] C:\Users\User\.gradle\caches\transforms-4\1221573d29cd04895bb67aad8eea6117\transformed\threetenabp-1.4.4\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from D:\SavvySaver\app\src\main\AndroidManifest.xml
 	android:minSdkVersion

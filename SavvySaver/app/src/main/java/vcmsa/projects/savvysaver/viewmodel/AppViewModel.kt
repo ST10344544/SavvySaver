@@ -11,6 +11,10 @@ import vcmsa.projects.savvysaver.data.Expense
 import vcmsa.projects.savvysaver.data.Budget
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlinx.coroutines.withContext
+
 
 class AppViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -95,6 +99,38 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
             callback(budgets)
         }
     }
+
+
+    fun getExpensesGroupedByCategory(
+        startDateStr: String,
+        endDateStr: String,
+        callback: (Map<Int, Double>) -> Unit
+    ) {
+        viewModelScope.launch(Dispatchers.IO) {
+            val sdf = SimpleDateFormat("MM/dd/yyyy", Locale.US)
+            val startDate = sdf.parse(startDateStr)
+            val endDate = sdf.parse(endDateStr)
+
+
+            val allExpenses = db.expenseDao().getAllExpenses()
+
+
+            val filteredExpenses = allExpenses.filter {
+                val expenseDate = sdf.parse(it.date)
+                expenseDate != null && !expenseDate.before(startDate) && !expenseDate.after(endDate)
+            }
+
+
+            val grouped = filteredExpenses.groupBy { it.categoryId }
+                .mapValues { entry -> entry.value.sumOf { it.amount } }
+
+            withContext(Dispatchers.Main) {
+                callback(grouped)
+            }
+        }
+    }
+
+
 }
 
 

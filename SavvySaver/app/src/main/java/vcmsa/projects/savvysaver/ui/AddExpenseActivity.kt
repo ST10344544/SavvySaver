@@ -28,6 +28,7 @@ import java.util.Locale
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import java.io.InputStream
+import java.time.LocalDate
 
 class AddExpenseActivity : AppCompatActivity() {
     private lateinit var viewModel: AppViewModel

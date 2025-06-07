@@ -4,6 +4,7 @@ package vcmsa.projects.savvysaver.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -34,6 +35,9 @@ public final class ActivityDashboardBinding implements ViewBinding {
   public final TextView dashboardHeader;
 
   @NonNull
+  public final Button openAnalysisButton;
+
+  @NonNull
   public final TextView recentExpensesHeader;
 
   @NonNull
@@ -42,12 +46,14 @@ public final class ActivityDashboardBinding implements ViewBinding {
   private ActivityDashboardBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView balanceText, @NonNull BottomNavigationView bottomNavigation,
       @NonNull TextView budgetText, @NonNull TextView dashboardHeader,
-      @NonNull TextView recentExpensesHeader, @NonNull ListView recentExpensesList) {
+      @NonNull Button openAnalysisButton, @NonNull TextView recentExpensesHeader,
+      @NonNull ListView recentExpensesList) {
     this.rootView = rootView;
     this.balanceText = balanceText;
     this.bottomNavigation = bottomNavigation;
     this.budgetText = budgetText;
     this.dashboardHeader = dashboardHeader;
+    this.openAnalysisButton = openAnalysisButton;
     this.recentExpensesHeader = recentExpensesHeader;
     this.recentExpensesList = recentExpensesList;
   }
@@ -103,6 +109,12 @@ public final class ActivityDashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.open_analysis_button;
+      Button openAnalysisButton = ViewBindings.findChildViewById(rootView, id);
+      if (openAnalysisButton == null) {
+        break missingId;
+      }
+
       id = R.id.recent_expenses_header;
       TextView recentExpensesHeader = ViewBindings.findChildViewById(rootView, id);
       if (recentExpensesHeader == null) {
@@ -116,7 +128,8 @@ public final class ActivityDashboardBinding implements ViewBinding {
       }
 
       return new ActivityDashboardBinding((ConstraintLayout) rootView, balanceText,
-          bottomNavigation, budgetText, dashboardHeader, recentExpensesHeader, recentExpensesList);
+          bottomNavigation, budgetText, dashboardHeader, openAnalysisButton, recentExpensesHeader,
+          recentExpensesList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

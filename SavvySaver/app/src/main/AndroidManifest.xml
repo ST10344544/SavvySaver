@@ -22,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.SpendingGraphActivity" android:exported="false" />
         <activity android:name=".ui.LoginActivity" android:exported="false" />
         <activity android:name=".ui.CategoryExpensesActivity" android:exported="false" />
         <activity android:name=".ui.ViewPhotoActivity" android:exported="false"/>

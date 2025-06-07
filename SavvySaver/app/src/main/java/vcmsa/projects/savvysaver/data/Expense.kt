@@ -3,6 +3,7 @@ package vcmsa.projects.savvysaver.data
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
+import java.time.LocalDate
 
 @Entity(
     tableName = "expenses",

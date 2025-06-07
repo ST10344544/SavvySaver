@@ -4,16 +4,12 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_expenses_by_date.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_expenses_by_date.xml"
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\drawable_ic_goals.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\drawable\\ic_goals.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\menu\\bottom_nav_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\drawable_ic_goals.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\drawable\\ic_goals.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\drawable_ic_home.xml.flat",
@@ -26,6 +22,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-debug-47:/layout_activity_spending_graph.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_spending_graph.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_categories.xml"
     },
     {
-        "merged": "vcmsa.projects.savvysaver.app-debug-47:/layout_activity_dashboard.xml.flat",
-        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_dashboard.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_view_photo.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_view_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_spending_graph.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_spending_graph.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\drawable_ic_settings.xml.flat",

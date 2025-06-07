@@ -9,6 +9,8 @@ import vcmsa.projects.savvysaver.viewmodel.AppViewModel
 import android.widget.ListView
 import android.widget.ArrayAdapter
 import androidx.lifecycle.ViewModelProvider
+import android.widget.Button
+
 
 class DashboardActivity : AppCompatActivity() {
 
@@ -33,6 +35,12 @@ class DashboardActivity : AppCompatActivity() {
                 val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, formattedList)
                 recentExpensesListView.adapter = adapter
             }
+        }
+
+        val openAnalysisButton = findViewById<Button>(R.id.open_analysis_button)
+        openAnalysisButton.setOnClickListener {
+            val intent = Intent(this, SpendingGraphActivity::class.java)
+            startActivity(intent)
         }
 
         val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottom_navigation)
