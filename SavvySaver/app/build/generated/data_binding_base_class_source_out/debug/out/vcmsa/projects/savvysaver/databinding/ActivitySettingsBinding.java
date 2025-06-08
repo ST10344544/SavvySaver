@@ -22,6 +22,9 @@ public final class ActivitySettingsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button budgetCalculatorButton;
+
+  @NonNull
   public final Switch darkModeSwitch;
 
   @NonNull
@@ -34,9 +37,11 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final TextView settingsHeader;
 
   private ActivitySettingsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Switch darkModeSwitch, @NonNull Button logoutButton,
-      @NonNull Switch notificationsSwitch, @NonNull TextView settingsHeader) {
+      @NonNull Button budgetCalculatorButton, @NonNull Switch darkModeSwitch,
+      @NonNull Button logoutButton, @NonNull Switch notificationsSwitch,
+      @NonNull TextView settingsHeader) {
     this.rootView = rootView;
+    this.budgetCalculatorButton = budgetCalculatorButton;
     this.darkModeSwitch = darkModeSwitch;
     this.logoutButton = logoutButton;
     this.notificationsSwitch = notificationsSwitch;
@@ -70,6 +75,12 @@ public final class ActivitySettingsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.budget_calculator_button;
+      Button budgetCalculatorButton = ViewBindings.findChildViewById(rootView, id);
+      if (budgetCalculatorButton == null) {
+        break missingId;
+      }
+
       id = R.id.dark_mode_switch;
       Switch darkModeSwitch = ViewBindings.findChildViewById(rootView, id);
       if (darkModeSwitch == null) {
@@ -94,8 +105,8 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySettingsBinding((ConstraintLayout) rootView, darkModeSwitch, logoutButton,
-          notificationsSwitch, settingsHeader);
+      return new ActivitySettingsBinding((ConstraintLayout) rootView, budgetCalculatorButton,
+          darkModeSwitch, logoutButton, notificationsSwitch, settingsHeader);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

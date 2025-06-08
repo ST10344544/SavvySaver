@@ -38,7 +38,7 @@
         android:id="@+id/budget_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Budget for March: R6000"
+        android:text="Budget for June: R6000"
         android:textSize="18sp"
         android:textColor="@android:color/white"
         android:layout_marginTop="20dp"

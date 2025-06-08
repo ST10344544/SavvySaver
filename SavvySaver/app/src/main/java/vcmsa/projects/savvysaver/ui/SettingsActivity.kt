@@ -16,6 +16,12 @@ class SettingsActivity : AppCompatActivity() {
         val darkModeSwitch = findViewById<Switch>(R.id.dark_mode_switch)
         val logoutButton = findViewById<Button>(R.id.logout_button)
 
+        val calculatorButton = findViewById<Button>(R.id.budget_calculator_button)
+        calculatorButton.setOnClickListener {
+            startActivity(Intent(this, BudgetCalculatorActivity::class.java))
+        }
+
+
         notificationsSwitch.setOnCheckedChangeListener { _, isChecked ->
             // TODO: Handle notifications toggle
         }

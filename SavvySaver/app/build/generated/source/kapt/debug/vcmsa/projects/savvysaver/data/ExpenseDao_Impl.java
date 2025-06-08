@@ -66,7 +66,7 @@ public final class ExpenseDao_Impl implements ExpenseDao {
   }
 
   @Override
-  public Object insert(final Expense expense, final Continuation<? super Unit> $completion) {
+  public Object insert(final Expense expense, final Continuation<? super Unit> arg1) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       @NonNull
@@ -80,12 +80,12 @@ public final class ExpenseDao_Impl implements ExpenseDao {
           __db.endTransaction();
         }
       }
-    }, $completion);
+    }, arg1);
   }
 
   @Override
   public Object getExpensesByPeriod(final String startDate, final String endDate,
-      final Continuation<? super List<Expense>> $completion) {
+      final Continuation<? super List<Expense>> arg2) {
     final String _sql = "SELECT * FROM expenses WHERE date BETWEEN ? AND ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 2);
     int _argIndex = 1;
@@ -149,12 +149,12 @@ public final class ExpenseDao_Impl implements ExpenseDao {
           _statement.release();
         }
       }
-    }, $completion);
+    }, arg2);
   }
 
   @Override
   public Object getTotalByCategory(final int categoryId, final String startDate,
-      final String endDate, final Continuation<? super Double> $completion) {
+      final String endDate, final Continuation<? super Double> arg3) {
     final String _sql = "SELECT SUM(amount) FROM expenses WHERE categoryId = ? AND date BETWEEN ? AND ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 3);
     int _argIndex = 1;
@@ -196,12 +196,12 @@ public final class ExpenseDao_Impl implements ExpenseDao {
           _statement.release();
         }
       }
-    }, $completion);
+    }, arg3);
   }
 
   @Override
   public Object getExpensesByCategory(final int categoryId,
-      final Continuation<? super List<Expense>> $completion) {
+      final Continuation<? super List<Expense>> arg1) {
     final String _sql = "SELECT * FROM expenses WHERE categoryId = ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
@@ -255,7 +255,7 @@ public final class ExpenseDao_Impl implements ExpenseDao {
           _statement.release();
         }
       }
-    }, $completion);
+    }, arg1);
   }
 
   @Override
@@ -309,7 +309,7 @@ public final class ExpenseDao_Impl implements ExpenseDao {
   }
 
   @Override
-  public Object getAllExpenses(final Continuation<? super List<Expense>> $completion) {
+  public Object getAllExpenses(final Continuation<? super List<Expense>> arg0) {
     final String _sql = "SELECT * FROM expenses";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
@@ -361,12 +361,12 @@ public final class ExpenseDao_Impl implements ExpenseDao {
           _statement.release();
         }
       }
-    }, $completion);
+    }, arg0);
   }
 
   @Override
   public Object getExpensesByCategoryAndMonth(final int categoryId, final String month,
-      final Continuation<? super List<Expense>> $completion) {
+      final Continuation<? super List<Expense>> arg2) {
     final String _sql = "SELECT * FROM expenses WHERE categoryId = ? AND substr(date, 1, 7) = ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 2);
     int _argIndex = 1;
@@ -426,11 +426,11 @@ public final class ExpenseDao_Impl implements ExpenseDao {
           _statement.release();
         }
       }
-    }, $completion);
+    }, arg2);
   }
 
   @Override
-  public Object getAllCategories(final Continuation<? super List<Category>> $completion) {
+  public Object getAllCategories(final Continuation<? super List<Category>> arg0) {
     final String _sql = "SELECT * FROM categories";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
@@ -462,7 +462,7 @@ public final class ExpenseDao_Impl implements ExpenseDao {
           _statement.release();
         }
       }
-    }, $completion);
+    }, arg0);
   }
 
   @NonNull

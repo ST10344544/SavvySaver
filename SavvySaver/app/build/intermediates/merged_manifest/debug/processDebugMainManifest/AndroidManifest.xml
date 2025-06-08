@@ -43,6 +43,12 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="vcmsa.projects.savvysaver.ui.SavingsGoalsActivity"
+            android:exported="false" />
+        <activity
+            android:name="vcmsa.projects.savvysaver.ui.BudgetCalculatorActivity"
+            android:exported="false" />
+        <activity
             android:name="vcmsa.projects.savvysaver.ui.SpendingGraphActivity"
             android:exported="false" />
         <activity

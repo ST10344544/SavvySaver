@@ -10,6 +10,8 @@ import vcmsa.projects.savvysaver.data.Category
 import vcmsa.projects.savvysaver.viewmodel.AppViewModel
 import java.text.SimpleDateFormat
 import java.util.*
+import android.content.Intent
+
 
 class BudgetGoalsActivity : AppCompatActivity() {
     private lateinit var viewModel: AppViewModel
@@ -73,6 +75,12 @@ class BudgetGoalsActivity : AppCompatActivity() {
                 refreshBudgetList()
             }
         }
+
+        val savingsGoalsButton = findViewById<Button>(R.id.savings_goals_button)
+        savingsGoalsButton.setOnClickListener {
+            startActivity(Intent(this, SavingsGoalsActivity::class.java))
+        }
+
     }
 
     private fun setupCategorySpinner() {

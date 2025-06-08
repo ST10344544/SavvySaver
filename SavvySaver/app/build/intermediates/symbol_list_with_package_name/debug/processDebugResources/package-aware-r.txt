@@ -3180,6 +3180,7 @@ id add
 id add_category_button
 id add_category_input
 id add_expense_header
+id add_goal_button
 id alertTitle
 id aligned
 id all
@@ -3211,12 +3212,14 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id budget_amount
+id budget_calculator_button
 id budget_goals_header
 id budget_list
 id budget_status_text
 id budget_text
 id buttonPanel
 id cache_measures
+id calculate_button
 id callMeasure
 id cancel_button
 id carryVelocity
@@ -3318,6 +3321,7 @@ id expense_date
 id expense_description
 id expense_list
 id expensesRecyclerView
+id expenses_input
 id expenses_list
 id fade
 id fill
@@ -3364,6 +3368,7 @@ id ignoreRequest
 id image
 id immediateStop
 id included
+id income_input
 id indeterminate
 id info
 id insights_header
@@ -3526,6 +3531,7 @@ id rectangles
 id register_button
 id register_header
 id report_drawn
+id result_text
 id reverseSawtooth
 id rewards_header
 id right
@@ -3537,6 +3543,7 @@ id row_index_key
 id save_button
 id save_non_transition_alpha
 id save_overlay_view
+id savings_goals_button
 id sawtooth
 id scale
 id screen
@@ -3791,6 +3798,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_budget
 layout activity_add_expense
+layout activity_budget_calculator
 layout activity_budget_goals
 layout activity_categories
 layout activity_category_expenses
@@ -3802,6 +3810,7 @@ layout activity_logout
 layout activity_main
 layout activity_register
 layout activity_rewards
+layout activity_savings_goals
 layout activity_settings
 layout activity_spending_graph
 layout activity_splash

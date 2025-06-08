@@ -68,16 +68,20 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_dashboard.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_dashboard.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_add_expense.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_add_expense.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\drawable_ic_insights.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\drawable\\ic_insights.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_budget_calculator.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_budget_calculator.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_register.xml.flat",
@@ -110,6 +114,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-debug-47:/layout_activity_savings_goals.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_savings_goals.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",

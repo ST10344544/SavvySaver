@@ -47,11 +47,15 @@ public final class ActivityBudgetGoalsBinding implements ViewBinding {
   @NonNull
   public final TextView currentBudgetsHeader;
 
+  @NonNull
+  public final Button savingsGoalsButton;
+
   private ActivityBudgetGoalsBinding(@NonNull ConstraintLayout rootView,
       @NonNull EditText budgetAmount, @NonNull TextView budgetGoalsHeader,
       @NonNull ListView budgetList, @NonNull TextView budgetStatusText,
       @NonNull Spinner categorySpinner, @NonNull Button createBudgetButton,
-      @NonNull TextView createBudgetHeader, @NonNull TextView currentBudgetsHeader) {
+      @NonNull TextView createBudgetHeader, @NonNull TextView currentBudgetsHeader,
+      @NonNull Button savingsGoalsButton) {
     this.rootView = rootView;
     this.budgetAmount = budgetAmount;
     this.budgetGoalsHeader = budgetGoalsHeader;
@@ -61,6 +65,7 @@ public final class ActivityBudgetGoalsBinding implements ViewBinding {
     this.createBudgetButton = createBudgetButton;
     this.createBudgetHeader = createBudgetHeader;
     this.currentBudgetsHeader = currentBudgetsHeader;
+    this.savingsGoalsButton = savingsGoalsButton;
   }
 
   @Override
@@ -138,9 +143,15 @@ public final class ActivityBudgetGoalsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.savings_goals_button;
+      Button savingsGoalsButton = ViewBindings.findChildViewById(rootView, id);
+      if (savingsGoalsButton == null) {
+        break missingId;
+      }
+
       return new ActivityBudgetGoalsBinding((ConstraintLayout) rootView, budgetAmount,
           budgetGoalsHeader, budgetList, budgetStatusText, categorySpinner, createBudgetButton,
-          createBudgetHeader, currentBudgetsHeader);
+          createBudgetHeader, currentBudgetsHeader, savingsGoalsButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

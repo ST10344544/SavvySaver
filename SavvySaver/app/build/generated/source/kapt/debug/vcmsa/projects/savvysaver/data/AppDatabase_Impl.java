@@ -33,18 +33,21 @@ public final class AppDatabase_Impl extends AppDatabase {
 
   private volatile BudgetDao _budgetDao;
 
+  private volatile SavingsGoalDao _savingsGoalDao;
+
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `username` TEXT NOT NULL, `password` TEXT NOT NULL, `fullName` TEXT NOT NULL, `email` TEXT NOT NULL, `phone` TEXT NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS `categories` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS `expenses` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryId` INTEGER NOT NULL, `amount` REAL NOT NULL, `date` TEXT NOT NULL, `description` TEXT NOT NULL, `photoPath` TEXT, FOREIGN KEY(`categoryId`) REFERENCES `categories`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )");
         db.execSQL("CREATE TABLE IF NOT EXISTS `budgets` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `categoryId` INTEGER NOT NULL, `amount` REAL NOT NULL, `month` TEXT NOT NULL, FOREIGN KEY(`categoryId`) REFERENCES `categories`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `savings_goals` (`id` TEXT NOT NULL, `title` TEXT NOT NULL, `targetAmount` REAL NOT NULL, `currentAmount` REAL NOT NULL, PRIMARY KEY(`id`))");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '24972cdcabd58a5414a16d2f160f13dd')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '7c39fd90396c6af37a0fe35dd4a31029')");
       }
 
       @Override
@@ -53,6 +56,7 @@ public final class AppDatabase_Impl extends AppDatabase {
         db.execSQL("DROP TABLE IF EXISTS `categories`");
         db.execSQL("DROP TABLE IF EXISTS `expenses`");
         db.execSQL("DROP TABLE IF EXISTS `budgets`");
+        db.execSQL("DROP TABLE IF EXISTS `savings_goals`");
         final List<? extends RoomDatabase.Callback> _callbacks = mCallbacks;
         if (_callbacks != null) {
           for (RoomDatabase.Callback _callback : _callbacks) {
@@ -157,9 +161,23 @@ public final class AppDatabase_Impl extends AppDatabase {
                   + " Expected:\n" + _infoBudgets + "\n"
                   + " Found:\n" + _existingBudgets);
         }
+        final HashMap<String, TableInfo.Column> _columnsSavingsGoals = new HashMap<String, TableInfo.Column>(4);
+        _columnsSavingsGoals.put("id", new TableInfo.Column("id", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsSavingsGoals.put("title", new TableInfo.Column("title", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsSavingsGoals.put("targetAmount", new TableInfo.Column("targetAmount", "REAL", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsSavingsGoals.put("currentAmount", new TableInfo.Column("currentAmount", "REAL", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        final HashSet<TableInfo.ForeignKey> _foreignKeysSavingsGoals = new HashSet<TableInfo.ForeignKey>(0);
+        final HashSet<TableInfo.Index> _indicesSavingsGoals = new HashSet<TableInfo.Index>(0);
+        final TableInfo _infoSavingsGoals = new TableInfo("savings_goals", _columnsSavingsGoals, _foreignKeysSavingsGoals, _indicesSavingsGoals);
+        final TableInfo _existingSavingsGoals = TableInfo.read(db, "savings_goals");
+        if (!_infoSavingsGoals.equals(_existingSavingsGoals)) {
+          return new RoomOpenHelper.ValidationResult(false, "savings_goals(vcmsa.projects.savvysaver.data.SavingsGoal).\n"
+                  + " Expected:\n" + _infoSavingsGoals + "\n"
+                  + " Found:\n" + _existingSavingsGoals);
+        }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "24972cdcabd58a5414a16d2f160f13dd", "69cc5746e50b72c74b2a20c2adb1e6ea");
+    }, "7c39fd90396c6af37a0fe35dd4a31029", "d120e3e3870c73c45d39f5df6e851de2");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;
@@ -170,7 +188,7 @@ public final class AppDatabase_Impl extends AppDatabase {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     final HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
-    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "users","categories","expenses","budgets");
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "users","categories","expenses","budgets","savings_goals");
   }
 
   @Override
@@ -190,6 +208,7 @@ public final class AppDatabase_Impl extends AppDatabase {
       _db.execSQL("DELETE FROM `categories`");
       _db.execSQL("DELETE FROM `expenses`");
       _db.execSQL("DELETE FROM `budgets`");
+      _db.execSQL("DELETE FROM `savings_goals`");
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();
@@ -211,6 +230,7 @@ public final class AppDatabase_Impl extends AppDatabase {
     _typeConvertersMap.put(CategoryDao.class, CategoryDao_Impl.getRequiredConverters());
     _typeConvertersMap.put(ExpenseDao.class, ExpenseDao_Impl.getRequiredConverters());
     _typeConvertersMap.put(BudgetDao.class, BudgetDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(SavingsGoalDao.class, SavingsGoalDao_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -281,6 +301,20 @@ public final class AppDatabase_Impl extends AppDatabase {
           _budgetDao = new BudgetDao_Impl(this);
         }
         return _budgetDao;
+      }
+    }
+  }
+
+  @Override
+  public SavingsGoalDao savingsGoalDao() {
+    if (_savingsGoalDao != null) {
+      return _savingsGoalDao;
+    } else {
+      synchronized(this) {
+        if(_savingsGoalDao == null) {
+          _savingsGoalDao = new SavingsGoalDao_Impl(this);
+        }
+        return _savingsGoalDao;
       }
     }
   }
