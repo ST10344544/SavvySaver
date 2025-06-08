@@ -3212,7 +3212,7 @@ int id bounceStart 0x7f080067
 int id budget_amount 0x7f080068
 int id budget_goals_header 0x7f080069
 int id budget_list 0x7f08006a
-int id budget_name 0x7f08006b
+int id budget_status_text 0x7f080239
 int id budget_text 0x7f08006c
 int id buttonPanel 0x7f08006d
 int id cache_measures 0x7f08006e
@@ -3788,6 +3788,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_add_budget 0x7f0b007c
 int layout activity_add_expense 0x7f0b001c
 int layout activity_budget_goals 0x7f0b001d
 int layout activity_categories 0x7f0b001e

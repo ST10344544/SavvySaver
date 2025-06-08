@@ -137,6 +137,44 @@ public final class CategoryDao_Impl implements CategoryDao {
     }
   }
 
+  @Override
+  public Object getCategoryById(final int id, final Continuation<? super Category> arg1) {
+    final String _sql = "SELECT * FROM categories WHERE id = ? LIMIT 1";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    _statement.bindLong(_argIndex, id);
+    final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
+    return CoroutinesRoom.execute(__db, false, _cancellationSignal, new Callable<Category>() {
+      @Override
+      @NonNull
+      public Category call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+          final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+          final Category _result;
+          if (_cursor.moveToFirst()) {
+            final int _tmpId;
+            _tmpId = _cursor.getInt(_cursorIndexOfId);
+            final String _tmpName;
+            if (_cursor.isNull(_cursorIndexOfName)) {
+              _tmpName = null;
+            } else {
+              _tmpName = _cursor.getString(_cursorIndexOfName);
+            }
+            _result = new Category(_tmpId,_tmpName);
+          } else {
+            _result = null;
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+          _statement.release();
+        }
+      }
+    }, arg1);
+  }
+
   @NonNull
   public static List<Class<?>> getRequiredConverters() {
     return Collections.emptyList();

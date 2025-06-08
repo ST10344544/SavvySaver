@@ -12,6 +12,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\expense_item.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_add_budget.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_add_budget.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_expense_list.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_expense_list.xml"
     },
@@ -44,16 +48,16 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_category_expenses.xml"
     },
     {
-        "merged": "vcmsa.projects.savvysaver.app-mergeDebugResources-46:/layout/activity_spending_graph.xml",
-        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_spending_graph.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_register.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_register.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_logout.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_logout.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeDebugResources-46:/layout/activity_budget_goals.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_budget_goals.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-mergeDebugResources-46:\\layout\\activity_insights.xml",

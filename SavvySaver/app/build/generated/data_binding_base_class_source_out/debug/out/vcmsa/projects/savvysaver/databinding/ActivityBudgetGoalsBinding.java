@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,7 +33,10 @@ public final class ActivityBudgetGoalsBinding implements ViewBinding {
   public final ListView budgetList;
 
   @NonNull
-  public final EditText budgetName;
+  public final TextView budgetStatusText;
+
+  @NonNull
+  public final Spinner categorySpinner;
 
   @NonNull
   public final Button createBudgetButton;
@@ -45,14 +49,15 @@ public final class ActivityBudgetGoalsBinding implements ViewBinding {
 
   private ActivityBudgetGoalsBinding(@NonNull ConstraintLayout rootView,
       @NonNull EditText budgetAmount, @NonNull TextView budgetGoalsHeader,
-      @NonNull ListView budgetList, @NonNull EditText budgetName,
-      @NonNull Button createBudgetButton, @NonNull TextView createBudgetHeader,
-      @NonNull TextView currentBudgetsHeader) {
+      @NonNull ListView budgetList, @NonNull TextView budgetStatusText,
+      @NonNull Spinner categorySpinner, @NonNull Button createBudgetButton,
+      @NonNull TextView createBudgetHeader, @NonNull TextView currentBudgetsHeader) {
     this.rootView = rootView;
     this.budgetAmount = budgetAmount;
     this.budgetGoalsHeader = budgetGoalsHeader;
     this.budgetList = budgetList;
-    this.budgetName = budgetName;
+    this.budgetStatusText = budgetStatusText;
+    this.categorySpinner = categorySpinner;
     this.createBudgetButton = createBudgetButton;
     this.createBudgetHeader = createBudgetHeader;
     this.currentBudgetsHeader = currentBudgetsHeader;
@@ -103,9 +108,15 @@ public final class ActivityBudgetGoalsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.budget_name;
-      EditText budgetName = ViewBindings.findChildViewById(rootView, id);
-      if (budgetName == null) {
+      id = R.id.budget_status_text;
+      TextView budgetStatusText = ViewBindings.findChildViewById(rootView, id);
+      if (budgetStatusText == null) {
+        break missingId;
+      }
+
+      id = R.id.category_spinner;
+      Spinner categorySpinner = ViewBindings.findChildViewById(rootView, id);
+      if (categorySpinner == null) {
         break missingId;
       }
 
@@ -128,8 +139,8 @@ public final class ActivityBudgetGoalsBinding implements ViewBinding {
       }
 
       return new ActivityBudgetGoalsBinding((ConstraintLayout) rootView, budgetAmount,
-          budgetGoalsHeader, budgetList, budgetName, createBudgetButton, createBudgetHeader,
-          currentBudgetsHeader);
+          budgetGoalsHeader, budgetList, budgetStatusText, categorySpinner, createBudgetButton,
+          createBudgetHeader, currentBudgetsHeader);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

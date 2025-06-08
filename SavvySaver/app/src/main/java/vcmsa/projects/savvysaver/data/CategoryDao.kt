@@ -15,4 +15,7 @@ interface CategoryDao {
     @Query("SELECT * FROM categories WHERE id = :id")
     fun getById(id: Int): Category?
 
+    @Query("SELECT * FROM categories WHERE id = :id LIMIT 1")
+    suspend fun getCategoryById(id: Int): Category
+
 }

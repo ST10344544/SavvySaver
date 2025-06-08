@@ -24,4 +24,16 @@ interface ExpenseDao {
     @Query("SELECT * FROM expenses")
     suspend fun getAllExpenses(): List<Expense>
 
+    @Query("SELECT * FROM expenses WHERE categoryId = :categoryId AND substr(date, 1, 7) = :month")
+    suspend fun getExpensesByCategoryAndMonth(categoryId: Int, month: String): List<Expense>
+
+    @Query("SELECT * FROM categories")
+    suspend fun getAllCategories(): List<Category>
+
+    @Dao
+    interface ExpenseDao {
+        @Query("SELECT SUM(amount) FROM expenses WHERE categoryId = :categoryId AND strftime('%Y-%m', date) = :month")
+        suspend fun getSpentForCategoryInMonth(categoryId: Int, month: String): Double?
+    }
+
 }

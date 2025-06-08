@@ -3213,7 +3213,7 @@ id bounceStart
 id budget_amount
 id budget_goals_header
 id budget_list
-id budget_name
+id budget_status_text
 id budget_text
 id buttonPanel
 id cache_measures
@@ -3789,6 +3789,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_budget
 layout activity_add_expense
 layout activity_budget_goals
 layout activity_categories

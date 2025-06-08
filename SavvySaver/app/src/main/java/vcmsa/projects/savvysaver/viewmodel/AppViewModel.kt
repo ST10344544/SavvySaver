@@ -131,6 +131,36 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     }
 
 
+    fun getExpensesByCategoryAndMonth(startDateStr: String,
+                                      endDateStr: String,
+                                      callback: (Map<Int, Double>) -> Unit
+    ) {
+        viewModelScope.launch(Dispatchers.IO) {
+            val sdf = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+            val startDate = sdf.parse(startDateStr)
+            val endDate = sdf.parse(endDateStr)
+
+
+            val allExpenses = db.expenseDao().getAllExpenses()
+
+
+            val filteredExpenses = allExpenses.filter {
+                val expenseDate = sdf.parse(it.date)
+                expenseDate != null && !expenseDate.before(startDate) && !expenseDate.after(endDate)
+            }
+
+
+            val grouped = filteredExpenses.groupBy { it.categoryId }
+                .mapValues { entry -> entry.value.sumOf { it.amount } }
+
+            withContext(Dispatchers.Main) {
+                callback(grouped)
+            }
+        }
+    }
+
+
+
 }
 
 

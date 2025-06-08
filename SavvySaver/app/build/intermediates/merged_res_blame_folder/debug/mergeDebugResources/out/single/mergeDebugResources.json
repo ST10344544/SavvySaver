@@ -24,10 +24,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "vcmsa.projects.savvysaver.app-debug-47:/layout_activity_spending_graph.xml.flat",
-        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_spending_graph.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -164,7 +160,15 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "vcmsa.projects.savvysaver.app-debug-47:/layout_activity_budget_goals.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-49:/layout/activity_budget_goals.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-debug-47:\\layout_activity_add_budget.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\vcmsa.projects.savvysaver.app-main-49:\\layout\\activity_add_budget.xml"
     }
 ]

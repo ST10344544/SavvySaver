@@ -364,6 +364,107 @@ public final class ExpenseDao_Impl implements ExpenseDao {
     }, $completion);
   }
 
+  @Override
+  public Object getExpensesByCategoryAndMonth(final int categoryId, final String month,
+      final Continuation<? super List<Expense>> $completion) {
+    final String _sql = "SELECT * FROM expenses WHERE categoryId = ? AND substr(date, 1, 7) = ?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 2);
+    int _argIndex = 1;
+    _statement.bindLong(_argIndex, categoryId);
+    _argIndex = 2;
+    if (month == null) {
+      _statement.bindNull(_argIndex);
+    } else {
+      _statement.bindString(_argIndex, month);
+    }
+    final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
+    return CoroutinesRoom.execute(__db, false, _cancellationSignal, new Callable<List<Expense>>() {
+      @Override
+      @NonNull
+      public List<Expense> call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+          final int _cursorIndexOfCategoryId = CursorUtil.getColumnIndexOrThrow(_cursor, "categoryId");
+          final int _cursorIndexOfAmount = CursorUtil.getColumnIndexOrThrow(_cursor, "amount");
+          final int _cursorIndexOfDate = CursorUtil.getColumnIndexOrThrow(_cursor, "date");
+          final int _cursorIndexOfDescription = CursorUtil.getColumnIndexOrThrow(_cursor, "description");
+          final int _cursorIndexOfPhotoPath = CursorUtil.getColumnIndexOrThrow(_cursor, "photoPath");
+          final List<Expense> _result = new ArrayList<Expense>(_cursor.getCount());
+          while (_cursor.moveToNext()) {
+            final Expense _item;
+            final int _tmpId;
+            _tmpId = _cursor.getInt(_cursorIndexOfId);
+            final int _tmpCategoryId;
+            _tmpCategoryId = _cursor.getInt(_cursorIndexOfCategoryId);
+            final double _tmpAmount;
+            _tmpAmount = _cursor.getDouble(_cursorIndexOfAmount);
+            final String _tmpDate;
+            if (_cursor.isNull(_cursorIndexOfDate)) {
+              _tmpDate = null;
+            } else {
+              _tmpDate = _cursor.getString(_cursorIndexOfDate);
+            }
+            final String _tmpDescription;
+            if (_cursor.isNull(_cursorIndexOfDescription)) {
+              _tmpDescription = null;
+            } else {
+              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            }
+            final String _tmpPhotoPath;
+            if (_cursor.isNull(_cursorIndexOfPhotoPath)) {
+              _tmpPhotoPath = null;
+            } else {
+              _tmpPhotoPath = _cursor.getString(_cursorIndexOfPhotoPath);
+            }
+            _item = new Expense(_tmpId,_tmpCategoryId,_tmpAmount,_tmpDate,_tmpDescription,_tmpPhotoPath);
+            _result.add(_item);
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+          _statement.release();
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Object getAllCategories(final Continuation<? super List<Category>> $completion) {
+    final String _sql = "SELECT * FROM categories";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
+    final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
+    return CoroutinesRoom.execute(__db, false, _cancellationSignal, new Callable<List<Category>>() {
+      @Override
+      @NonNull
+      public List<Category> call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+          final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+          final List<Category> _result = new ArrayList<Category>(_cursor.getCount());
+          while (_cursor.moveToNext()) {
+            final Category _item;
+            final int _tmpId;
+            _tmpId = _cursor.getInt(_cursorIndexOfId);
+            final String _tmpName;
+            if (_cursor.isNull(_cursorIndexOfName)) {
+              _tmpName = null;
+            } else {
+              _tmpName = _cursor.getString(_cursorIndexOfName);
+            }
+            _item = new Category(_tmpId,_tmpName);
+            _result.add(_item);
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+          _statement.release();
+        }
+      }
+    }, $completion);
+  }
+
   @NonNull
   public static List<Class<?>> getRequiredConverters() {
     return Collections.emptyList();
