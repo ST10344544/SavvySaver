@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_budget_calculator.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_budget_calculator.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_categories.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_categories.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_insights.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_insights.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_catagories.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_catagories.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_insights.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_insights.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_budget_goals.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_budget_goals.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_add_budget.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_add_budget.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_logout.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_logout.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_dashboard.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_rewards.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_rewards.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/xml_backup_rules.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_settings.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_rewards.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_rewards.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_expense_item.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/expense_item.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/xml_data_extraction_rules.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_view_photo.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_view_photo.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_splash.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_main.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_login.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_register.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_register.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/menu_bottom_nav_menu.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_expense_list.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_expense_list.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_settings.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_add_expense.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_add_expense.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_home.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_spending_graph.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_spending_graph.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_goals.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_goals.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_category_expenses.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_category_expenses.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_add.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/layout_activity_savings_goals.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_savings_goals.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-release-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

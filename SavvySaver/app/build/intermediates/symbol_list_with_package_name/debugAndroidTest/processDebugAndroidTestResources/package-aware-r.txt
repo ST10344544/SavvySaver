@@ -1,0 +1,3 @@
+vcmsa.projects.savvysaver.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

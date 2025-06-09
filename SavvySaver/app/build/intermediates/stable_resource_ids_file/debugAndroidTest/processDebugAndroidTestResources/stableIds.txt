@@ -1,0 +1,2 @@
+vcmsa.projects.savvysaver.test:style/WhiteBackgroundTheme = 0x7f010001
+vcmsa.projects.savvysaver.test:style/WhiteBackgroundDialogTheme = 0x7f010000

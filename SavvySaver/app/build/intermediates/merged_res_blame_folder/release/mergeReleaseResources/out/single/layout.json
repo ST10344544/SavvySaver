@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_categories.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_categories.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_rewards.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_rewards.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_add_budget.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_add_budget.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_savings_goals.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_savings_goals.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_login.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_settings.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_splash.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_budget_goals.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_budget_goals.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_logout.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_logout.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_add_expense.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_add_expense.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_category_expenses.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_category_expenses.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_register.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_register.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_expense_list.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_expense_list.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_insights.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_insights.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_spending_graph.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_spending_graph.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/expense_item.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/expense_item.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_dashboard.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_budget_calculator.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_budget_calculator.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_view_photo.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_view_photo.xml"
+    },
+    {
+        "merged": "vcmsa.projects.savvysaver.app-mergeReleaseResources-46:/layout/activity_main.xml",
+        "source": "vcmsa.projects.savvysaver.app-main-48:/layout/activity_main.xml"
+    }
+]

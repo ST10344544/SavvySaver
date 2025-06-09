@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_bluish_green">#FF2E4F50</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <string name="app_name">SavvySaver</string>
+    <string name="dashboard_header">Dashboard</string>
+    <string name="insights_header">Insights and Reports</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    </style>
+    <style name="Theme.SavvySaver" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/dark_bluish_green</item>
+        <item name="colorPrimaryVariant">@color/dark_bluish_green</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+</resources>

@@ -37,9 +37,9 @@ class CategoriesActivity : AppCompatActivity() {
 
                 categoryListView.setOnItemClickListener { _, _, position, _ ->
                     val selectedCategory = categories[position]
-                    // Pass the selected category's ID to the CategoryExpensesActivity
+
                     val intent = Intent(this, CategoryExpensesActivity::class.java)
-                    intent.putExtra("CATEGORY_ID", selectedCategory.id) // Pass category ID
+                    intent.putExtra("CATEGORY_ID", selectedCategory.id)
                     startActivity(intent)
                 }
             }

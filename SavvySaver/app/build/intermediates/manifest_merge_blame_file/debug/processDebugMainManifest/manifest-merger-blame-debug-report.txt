@@ -52,213 +52,212 @@
 32-->D:\SavvySaver\app\src\main\AndroidManifest.xml:14:9-54
 33        android:supportsRtl="true"
 33-->D:\SavvySaver\app\src\main\AndroidManifest.xml:15:9-35
-34        android:testOnly="true"
-35        android:theme="@style/AppTheme" >
-35-->D:\SavvySaver\app\src\main\AndroidManifest.xml:16:9-40
-36        <activity
-36-->D:\SavvySaver\app\src\main\AndroidManifest.xml:17:9-24:20
-37            android:name="vcmsa.projects.savvysaver.ui.SplashActivity"
-37-->D:\SavvySaver\app\src\main\AndroidManifest.xml:18:13-46
-38            android:exported="true" >
-38-->D:\SavvySaver\app\src\main\AndroidManifest.xml:19:13-36
-39            <intent-filter>
-39-->D:\SavvySaver\app\src\main\AndroidManifest.xml:20:13-23:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->D:\SavvySaver\app\src\main\AndroidManifest.xml:21:17-69
-40-->D:\SavvySaver\app\src\main\AndroidManifest.xml:21:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->D:\SavvySaver\app\src\main\AndroidManifest.xml:22:17-77
-42-->D:\SavvySaver\app\src\main\AndroidManifest.xml:22:27-74
-43            </intent-filter>
-44        </activity>
-45        <activity
-45-->D:\SavvySaver\app\src\main\AndroidManifest.xml:25:9-86
-46            android:name="vcmsa.projects.savvysaver.ui.SavingsGoalsActivity"
-46-->D:\SavvySaver\app\src\main\AndroidManifest.xml:25:19-58
-47            android:exported="false" />
-47-->D:\SavvySaver\app\src\main\AndroidManifest.xml:25:59-83
-48        <activity
-48-->D:\SavvySaver\app\src\main\AndroidManifest.xml:26:9-90
-49            android:name="vcmsa.projects.savvysaver.ui.BudgetCalculatorActivity"
-49-->D:\SavvySaver\app\src\main\AndroidManifest.xml:26:19-62
-50            android:exported="false" />
-50-->D:\SavvySaver\app\src\main\AndroidManifest.xml:26:63-87
-51        <activity
-51-->D:\SavvySaver\app\src\main\AndroidManifest.xml:27:9-87
-52            android:name="vcmsa.projects.savvysaver.ui.SpendingGraphActivity"
-52-->D:\SavvySaver\app\src\main\AndroidManifest.xml:27:19-59
-53            android:exported="false" />
-53-->D:\SavvySaver\app\src\main\AndroidManifest.xml:27:60-84
-54        <activity
-54-->D:\SavvySaver\app\src\main\AndroidManifest.xml:28:9-79
-55            android:name="vcmsa.projects.savvysaver.ui.LoginActivity"
-55-->D:\SavvySaver\app\src\main\AndroidManifest.xml:28:19-51
-56            android:exported="false" />
-56-->D:\SavvySaver\app\src\main\AndroidManifest.xml:28:52-76
-57        <activity
-57-->D:\SavvySaver\app\src\main\AndroidManifest.xml:29:9-90
-58            android:name="vcmsa.projects.savvysaver.ui.CategoryExpensesActivity"
-58-->D:\SavvySaver\app\src\main\AndroidManifest.xml:29:19-62
-59            android:exported="false" />
-59-->D:\SavvySaver\app\src\main\AndroidManifest.xml:29:63-87
-60        <activity
-60-->D:\SavvySaver\app\src\main\AndroidManifest.xml:30:9-82
-61            android:name="vcmsa.projects.savvysaver.ui.ViewPhotoActivity"
-61-->D:\SavvySaver\app\src\main\AndroidManifest.xml:30:19-55
-62            android:exported="false" />
-62-->D:\SavvySaver\app\src\main\AndroidManifest.xml:30:56-80
-63        <activity
-63-->D:\SavvySaver\app\src\main\AndroidManifest.xml:31:9-78
-64            android:name="vcmsa.projects.savvysaver.ui.MainActivity"
-64-->D:\SavvySaver\app\src\main\AndroidManifest.xml:31:19-50
-65            android:exported="false" />
-65-->D:\SavvySaver\app\src\main\AndroidManifest.xml:31:51-75
-66        <activity
-66-->D:\SavvySaver\app\src\main\AndroidManifest.xml:32:9-82
-67            android:name="vcmsa.projects.savvysaver.ui.RegisterActivity"
-67-->D:\SavvySaver\app\src\main\AndroidManifest.xml:32:19-54
-68            android:exported="false" />
-68-->D:\SavvySaver\app\src\main\AndroidManifest.xml:32:55-79
-69        <activity
-69-->D:\SavvySaver\app\src\main\AndroidManifest.xml:33:9-83
-70            android:name="vcmsa.projects.savvysaver.ui.DashboardActivity"
-70-->D:\SavvySaver\app\src\main\AndroidManifest.xml:33:19-55
-71            android:exported="false" />
-71-->D:\SavvySaver\app\src\main\AndroidManifest.xml:33:56-80
-72        <activity
-72-->D:\SavvySaver\app\src\main\AndroidManifest.xml:34:9-84
-73            android:name="vcmsa.projects.savvysaver.ui.AddExpenseActivity"
-73-->D:\SavvySaver\app\src\main\AndroidManifest.xml:34:19-56
-74            android:exported="false" />
-74-->D:\SavvySaver\app\src\main\AndroidManifest.xml:34:57-81
-75        <activity
-75-->D:\SavvySaver\app\src\main\AndroidManifest.xml:35:9-84
-76            android:name="vcmsa.projects.savvysaver.ui.CategoriesActivity"
-76-->D:\SavvySaver\app\src\main\AndroidManifest.xml:35:19-56
-77            android:exported="false" />
-77-->D:\SavvySaver\app\src\main\AndroidManifest.xml:35:57-81
-78        <activity
-78-->D:\SavvySaver\app\src\main\AndroidManifest.xml:36:9-85
-79            android:name="vcmsa.projects.savvysaver.ui.BudgetGoalsActivity"
-79-->D:\SavvySaver\app\src\main\AndroidManifest.xml:36:19-57
-80            android:exported="false" />
-80-->D:\SavvySaver\app\src\main\AndroidManifest.xml:36:58-82
-81        <activity
-81-->D:\SavvySaver\app\src\main\AndroidManifest.xml:37:9-82
-82            android:name="vcmsa.projects.savvysaver.ui.InsightsActivity"
-82-->D:\SavvySaver\app\src\main\AndroidManifest.xml:37:19-54
-83            android:exported="false" />
-83-->D:\SavvySaver\app\src\main\AndroidManifest.xml:37:55-79
-84        <activity
-84-->D:\SavvySaver\app\src\main\AndroidManifest.xml:38:9-81
-85            android:name="vcmsa.projects.savvysaver.ui.RewardsActivity"
-85-->D:\SavvySaver\app\src\main\AndroidManifest.xml:38:19-53
-86            android:exported="false" />
-86-->D:\SavvySaver\app\src\main\AndroidManifest.xml:38:54-78
-87        <activity
-87-->D:\SavvySaver\app\src\main\AndroidManifest.xml:39:9-82
-88            android:name="vcmsa.projects.savvysaver.ui.SettingsActivity"
-88-->D:\SavvySaver\app\src\main\AndroidManifest.xml:39:19-54
-89            android:exported="false" />
-89-->D:\SavvySaver\app\src\main\AndroidManifest.xml:39:55-79
-90        <activity
-90-->D:\SavvySaver\app\src\main\AndroidManifest.xml:40:9-80
-91            android:name="vcmsa.projects.savvysaver.ui.LogoutActivity"
-91-->D:\SavvySaver\app\src\main\AndroidManifest.xml:40:19-52
-92            android:exported="false" />
-92-->D:\SavvySaver\app\src\main\AndroidManifest.xml:40:53-77
-93
-94        <service
-94-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
-95            android:name="androidx.camera.core.impl.MetadataHolderService"
-95-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
-96            android:enabled="false"
-96-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
-97            android:exported="false" >
-97-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
-98            <meta-data
-98-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
-99                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-99-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
-100                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-100-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
-101        </service>
-102
-103        <provider
-103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-104            android:name="androidx.startup.InitializationProvider"
-104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-105            android:authorities="vcmsa.projects.savvysaver.androidx-startup"
-105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-106            android:exported="false" >
-106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-107            <meta-data
-107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-108                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-109                android:value="androidx.startup" />
-109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-110            <meta-data
-110-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\User\.gradle\caches\transforms-4\ac5d134f856bbc3c036aa12bac1255b0\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
-111                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-111-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\User\.gradle\caches\transforms-4\ac5d134f856bbc3c036aa12bac1255b0\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
-112                android:value="androidx.startup" />
-112-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\User\.gradle\caches\transforms-4\ac5d134f856bbc3c036aa12bac1255b0\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
-113            <meta-data
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-114                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-115                android:value="androidx.startup" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-116        </provider>
-117
-118        <service
-118-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-119            android:name="androidx.room.MultiInstanceInvalidationService"
-119-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-120            android:directBootAware="true"
-120-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-121            android:exported="false" />
-121-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-122
-123        <receiver
-123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-125            android:directBootAware="false"
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-126            android:enabled="true"
-126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-127            android:exported="true"
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-128            android:permission="android.permission.DUMP" >
-128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-129            <intent-filter>
-129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-131            </intent-filter>
-132            <intent-filter>
-132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-134            </intent-filter>
-135            <intent-filter>
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-137            </intent-filter>
-138            <intent-filter>
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-140            </intent-filter>
-141        </receiver>
-142    </application>
-143
-144</manifest>
+34        android:theme="@style/AppTheme" >
+34-->D:\SavvySaver\app\src\main\AndroidManifest.xml:16:9-40
+35        <activity
+35-->D:\SavvySaver\app\src\main\AndroidManifest.xml:17:9-24:20
+36            android:name="vcmsa.projects.savvysaver.ui.SplashActivity"
+36-->D:\SavvySaver\app\src\main\AndroidManifest.xml:18:13-46
+37            android:exported="true" >
+37-->D:\SavvySaver\app\src\main\AndroidManifest.xml:19:13-36
+38            <intent-filter>
+38-->D:\SavvySaver\app\src\main\AndroidManifest.xml:20:13-23:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\SavvySaver\app\src\main\AndroidManifest.xml:21:17-69
+39-->D:\SavvySaver\app\src\main\AndroidManifest.xml:21:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\SavvySaver\app\src\main\AndroidManifest.xml:22:17-77
+41-->D:\SavvySaver\app\src\main\AndroidManifest.xml:22:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->D:\SavvySaver\app\src\main\AndroidManifest.xml:25:9-86
+45            android:name="vcmsa.projects.savvysaver.ui.SavingsGoalsActivity"
+45-->D:\SavvySaver\app\src\main\AndroidManifest.xml:25:19-58
+46            android:exported="false" />
+46-->D:\SavvySaver\app\src\main\AndroidManifest.xml:25:59-83
+47        <activity
+47-->D:\SavvySaver\app\src\main\AndroidManifest.xml:26:9-90
+48            android:name="vcmsa.projects.savvysaver.ui.BudgetCalculatorActivity"
+48-->D:\SavvySaver\app\src\main\AndroidManifest.xml:26:19-62
+49            android:exported="false" />
+49-->D:\SavvySaver\app\src\main\AndroidManifest.xml:26:63-87
+50        <activity
+50-->D:\SavvySaver\app\src\main\AndroidManifest.xml:27:9-87
+51            android:name="vcmsa.projects.savvysaver.ui.SpendingGraphActivity"
+51-->D:\SavvySaver\app\src\main\AndroidManifest.xml:27:19-59
+52            android:exported="false" />
+52-->D:\SavvySaver\app\src\main\AndroidManifest.xml:27:60-84
+53        <activity
+53-->D:\SavvySaver\app\src\main\AndroidManifest.xml:28:9-79
+54            android:name="vcmsa.projects.savvysaver.ui.LoginActivity"
+54-->D:\SavvySaver\app\src\main\AndroidManifest.xml:28:19-51
+55            android:exported="false" />
+55-->D:\SavvySaver\app\src\main\AndroidManifest.xml:28:52-76
+56        <activity
+56-->D:\SavvySaver\app\src\main\AndroidManifest.xml:29:9-90
+57            android:name="vcmsa.projects.savvysaver.ui.CategoryExpensesActivity"
+57-->D:\SavvySaver\app\src\main\AndroidManifest.xml:29:19-62
+58            android:exported="false" />
+58-->D:\SavvySaver\app\src\main\AndroidManifest.xml:29:63-87
+59        <activity
+59-->D:\SavvySaver\app\src\main\AndroidManifest.xml:30:9-82
+60            android:name="vcmsa.projects.savvysaver.ui.ViewPhotoActivity"
+60-->D:\SavvySaver\app\src\main\AndroidManifest.xml:30:19-55
+61            android:exported="false" />
+61-->D:\SavvySaver\app\src\main\AndroidManifest.xml:30:56-80
+62        <activity
+62-->D:\SavvySaver\app\src\main\AndroidManifest.xml:31:9-78
+63            android:name="vcmsa.projects.savvysaver.ui.MainActivity"
+63-->D:\SavvySaver\app\src\main\AndroidManifest.xml:31:19-50
+64            android:exported="false" />
+64-->D:\SavvySaver\app\src\main\AndroidManifest.xml:31:51-75
+65        <activity
+65-->D:\SavvySaver\app\src\main\AndroidManifest.xml:32:9-82
+66            android:name="vcmsa.projects.savvysaver.ui.RegisterActivity"
+66-->D:\SavvySaver\app\src\main\AndroidManifest.xml:32:19-54
+67            android:exported="false" />
+67-->D:\SavvySaver\app\src\main\AndroidManifest.xml:32:55-79
+68        <activity
+68-->D:\SavvySaver\app\src\main\AndroidManifest.xml:33:9-83
+69            android:name="vcmsa.projects.savvysaver.ui.DashboardActivity"
+69-->D:\SavvySaver\app\src\main\AndroidManifest.xml:33:19-55
+70            android:exported="false" />
+70-->D:\SavvySaver\app\src\main\AndroidManifest.xml:33:56-80
+71        <activity
+71-->D:\SavvySaver\app\src\main\AndroidManifest.xml:34:9-84
+72            android:name="vcmsa.projects.savvysaver.ui.AddExpenseActivity"
+72-->D:\SavvySaver\app\src\main\AndroidManifest.xml:34:19-56
+73            android:exported="false" />
+73-->D:\SavvySaver\app\src\main\AndroidManifest.xml:34:57-81
+74        <activity
+74-->D:\SavvySaver\app\src\main\AndroidManifest.xml:35:9-84
+75            android:name="vcmsa.projects.savvysaver.ui.CategoriesActivity"
+75-->D:\SavvySaver\app\src\main\AndroidManifest.xml:35:19-56
+76            android:exported="false" />
+76-->D:\SavvySaver\app\src\main\AndroidManifest.xml:35:57-81
+77        <activity
+77-->D:\SavvySaver\app\src\main\AndroidManifest.xml:36:9-85
+78            android:name="vcmsa.projects.savvysaver.ui.BudgetGoalsActivity"
+78-->D:\SavvySaver\app\src\main\AndroidManifest.xml:36:19-57
+79            android:exported="false" />
+79-->D:\SavvySaver\app\src\main\AndroidManifest.xml:36:58-82
+80        <activity
+80-->D:\SavvySaver\app\src\main\AndroidManifest.xml:37:9-82
+81            android:name="vcmsa.projects.savvysaver.ui.InsightsActivity"
+81-->D:\SavvySaver\app\src\main\AndroidManifest.xml:37:19-54
+82            android:exported="false" />
+82-->D:\SavvySaver\app\src\main\AndroidManifest.xml:37:55-79
+83        <activity
+83-->D:\SavvySaver\app\src\main\AndroidManifest.xml:38:9-81
+84            android:name="vcmsa.projects.savvysaver.ui.RewardsActivity"
+84-->D:\SavvySaver\app\src\main\AndroidManifest.xml:38:19-53
+85            android:exported="false" />
+85-->D:\SavvySaver\app\src\main\AndroidManifest.xml:38:54-78
+86        <activity
+86-->D:\SavvySaver\app\src\main\AndroidManifest.xml:39:9-82
+87            android:name="vcmsa.projects.savvysaver.ui.SettingsActivity"
+87-->D:\SavvySaver\app\src\main\AndroidManifest.xml:39:19-54
+88            android:exported="false" />
+88-->D:\SavvySaver\app\src\main\AndroidManifest.xml:39:55-79
+89        <activity
+89-->D:\SavvySaver\app\src\main\AndroidManifest.xml:40:9-80
+90            android:name="vcmsa.projects.savvysaver.ui.LogoutActivity"
+90-->D:\SavvySaver\app\src\main\AndroidManifest.xml:40:19-52
+91            android:exported="false" />
+91-->D:\SavvySaver\app\src\main\AndroidManifest.xml:40:53-77
+92
+93        <service
+93-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+94            android:name="androidx.camera.core.impl.MetadataHolderService"
+94-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+95            android:enabled="false"
+95-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+96            android:exported="false" >
+96-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+97            <meta-data
+97-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+98                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+98-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+99                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+99-->[androidx.camera:camera-camera2:1.3.4] C:\Users\User\.gradle\caches\transforms-4\b9e936b52f7ee712dfab11f2dec754ba\transformed\camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+100        </service>
+101
+102        <provider
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+103            android:name="androidx.startup.InitializationProvider"
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+104            android:authorities="vcmsa.projects.savvysaver.androidx-startup"
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+105            android:exported="false" >
+105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+106            <meta-data
+106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+108                android:value="androidx.startup" />
+108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\transforms-4\02df3052981700f28c026d85fc6cdc3e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\User\.gradle\caches\transforms-4\ac5d134f856bbc3c036aa12bac1255b0\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+110-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\User\.gradle\caches\transforms-4\ac5d134f856bbc3c036aa12bac1255b0\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+111                android:value="androidx.startup" />
+111-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\User\.gradle\caches\transforms-4\ac5d134f856bbc3c036aa12bac1255b0\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+112            <meta-data
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+114                android:value="androidx.startup" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+115        </provider>
+116
+117        <service
+117-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+118            android:name="androidx.room.MultiInstanceInvalidationService"
+118-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+119            android:directBootAware="true"
+119-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+120            android:exported="false" />
+120-->[androidx.room:room-runtime:2.6.1] C:\Users\User\.gradle\caches\transforms-4\c3d70b3f1125e6b9ec7557a3782c4af5\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+121
+122        <receiver
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+124            android:directBootAware="false"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+125            android:enabled="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+126            android:exported="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+127            android:permission="android.permission.DUMP" >
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-4\ce6cee0af8ecf69cb46273063446753a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+139            </intent-filter>
+140        </receiver>
+141    </application>
+142
+143</manifest>
